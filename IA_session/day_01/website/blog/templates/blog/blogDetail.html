@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #cont{
+            width: 300px;
+            height:300px;
+            box-shadow: rbga(0,0,0,0.1) 0px 4px 12px;
+            margin: 0 auto;
+            background:red;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <h1>thi is blog detail app</h1>
+    <div id="cont">
+        <h2>Title : {{blog.title}}</h2>
+        <h4>Author : {{blog.author}}</h4>
+        <p>Description : {{blog.desc}}</p>
+    </div>
+</body>
+</html>
